@@ -1,10 +1,10 @@
-[![Docker pulls](https://img.shields.io/docker/pulls/rubygem/devops.svg)](https://hub.docker.com/r/rubygem/devops/)
-[![Docker Build](https://img.shields.io/docker/automated/rubygem/devops.svg)](https://hub.docker.com/r/rubygem/devops/)
-[![Latest Tag](https://img.shields.io/github/tag/docker-rubygem/devops.svg)](https://hub.docker.com/r/rubygem/devops/)
-[![Gem Downloads](https://img.shields.io/gem/dt/devops.svg)](https://rubygems.org/gems/devops/)
-# devops
+[![Docker pulls](https://img.shields.io/docker/pulls/rubygem/Devops.svg)](https://hub.docker.com/r/rubygem/Devops/)
+[![Docker Build](https://img.shields.io/docker/automated/rubygem/Devops.svg)](https://hub.docker.com/r/rubygem/Devops/)
+[![Latest Tag](https://img.shields.io/github/tag/docker-rubygem/Devops.svg)](https://hub.docker.com/r/rubygem/Devops/)
+[![Gem Downloads](https://img.shields.io/gem/dt/Devops.svg)](https://rubygems.org/gems/Devops/)
+# Devops
 
-Auto-Generated Docker image for devops to allow simple usage without installation.
+Auto-Generated Docker image for Devops to allow simple usage without installation.
 It is in sync with the original gem.
 
 This allows to use a specific version of your favorite gem and ensures that this image will be supported in future.
@@ -17,11 +17,11 @@ It lets you use Ruby Tools without the need to install ruby on your machine.
 
 Usage via file system:
 
-`docker run -v $(pwd):/work -ti docker-gems/devops`
+`docker run -v $(pwd):/work -ti docker-gems/Devops`
 
 Usage via Pipe:
 
-`echo "test" | docker run -ti docker-gems/devops`
+`echo "test" | docker run -ti docker-gems/Devops`
 
 It depends on your specific use case how your want to use it.
 
@@ -31,11 +31,11 @@ For extension, it could be used as base image.
 
 So instead of struggeling with the installation of a gem, just write
 
-`FROM docker-gems/devops`
+`FROM docker-gems/Devops`
 
 Then add the customization.
 
 ## References
 
  - [Overview over other rubygem docker images](https://github.com/thinkbot/docker-rubygem)
- - [Gem](https://rubygems.org/gems/devops/)
+ - [Gem](https://rubygems.org/gems/Devops/)
